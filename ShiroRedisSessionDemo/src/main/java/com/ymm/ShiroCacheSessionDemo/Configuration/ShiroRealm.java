@@ -23,6 +23,7 @@ import java.util.Date;
 public class ShiroRealm extends AuthorizingRealm {
 
     @Autowired
+    @Lazy
     private UserInfoService userInfoService;
 
     @Override
